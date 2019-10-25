@@ -4,16 +4,13 @@
 #include <stack>
 #include <map>
 #include "hw1.h"
+#include <random>
 using namespace std;
-
+using byte = unsigned char;
 
 int main() {
 
-    vector<double >v;
-    UniformDistribution u01;
-    //u01.generateNvalue(v, 80);
-    CustomDistribution cd;
-    cd.testCDF();
+
 
     return 0;
 }
